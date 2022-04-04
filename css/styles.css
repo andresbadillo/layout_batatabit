@@ -444,6 +444,7 @@ main {
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 .plans-container--card .recomended {
+    display: flex;
     position: absolute;
     width: 120px;
     height: 31px;
@@ -453,6 +454,7 @@ main {
     font-family: "Inter", sans-serif;
     padding: 6px;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
@@ -517,6 +519,7 @@ main {
     background-repeat: no-repeat;
 }
 .plans-container--card .basic {
+    display: flex;
     position: absolute;
     width: 120px;
     height: 31px;
@@ -526,12 +529,14 @@ main {
     font-family: "Inter", sans-serif;
     padding: 6px;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: var(--secundary-blue);
     border-radius: 8px;
     color: var(--just-white);
 }
 .plans-container--card .premium {
+    display: flex;
     position: absolute;
     width: 120px;
     height: 31px;
@@ -541,6 +546,7 @@ main {
     font-family: "Inter", sans-serif;
     padding: 6px;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: var(--warm-black2);
     border-radius: 8px;
